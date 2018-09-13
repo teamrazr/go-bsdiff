@@ -5,8 +5,8 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/icedream/go-bsdiff/internal"
-	"github.com/icedream/go-bsdiff/internal/native"
+	"github.com/teamrazr/go-bsdiff/internal"
+	"github.com/teamrazr/go-bsdiff/internal/native"
 )
 
 func Patch(oldReader io.Reader, newWriter io.Writer, patchReader io.Reader) (err error) {

@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 
 	"github.com/dsnet/compress/bzip2"
-	"github.com/icedream/go-bsdiff/internal"
-	"github.com/icedream/go-bsdiff/internal/native"
+	"github.com/teamrazr/go-bsdiff/internal"
+	"github.com/teamrazr/go-bsdiff/internal/native"
 )
 
 func Diff(oldReader, newReader io.Reader, patchWriter io.Writer) (err error) {

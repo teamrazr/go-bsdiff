@@ -3,8 +3,8 @@ package bsdiff
 import (
 	"io"
 
-	"github.com/icedream/go-bsdiff/diff"
-	"github.com/icedream/go-bsdiff/patch"
+	"github.com/teamrazr/go-bsdiff/diff"
+	"github.com/teamrazr/go-bsdiff/patch"
 )
 
 func Diff(oldReader, newReader io.Reader, patchWriter io.Writer) (err error) {

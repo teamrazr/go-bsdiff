@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/icedream/go-bsdiff/diff"
+	"github.com/teamrazr/go-bsdiff/diff"
 	"gopkg.in/alecthomas/kingpin.v2"
 )
 
